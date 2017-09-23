@@ -36,9 +36,12 @@ namespace FidoU2f.Tests.Models
 			var registrationData = FidoRegistrationData.FromWebSafeBase64(TestVectors.RegistrationResponseDataBase64);
 
 			Assert.IsNotNull(registrationData.AttestationCertificate);
-			Assert.IsNotNullOrEmpty(registrationData.KeyHandle.ToString());
-			Assert.IsNotNullOrEmpty(registrationData.Signature.ToString());
-			Assert.IsNotNullOrEmpty(registrationData.UserPublicKey.ToString());
+			Assert.IsNotNull(registrationData.KeyHandle.ToString());
+			Assert.IsNotEmpty(registrationData.KeyHandle.ToString());
+			Assert.IsNotNull(registrationData.Signature.ToString());
+			Assert.IsNotEmpty(registrationData.Signature.ToString());
+			Assert.IsNotNull(registrationData.UserPublicKey.ToString());
+			Assert.IsNotEmpty(registrationData.UserPublicKey.ToString());
 		}
 
         [Test]
