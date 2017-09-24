@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FidoU2f", "FidoU2f\FidoU2f.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FidoU2f.Tests", "FidoU2f.Tests\FidoU2f.Tests.csproj", "{EC301858-3B6A-4155-BAB8-A84053BCAE49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FidoU2f.Demo", "FidoU2f.Demo\FidoU2f.Demo.csproj", "{FBF1763B-A0AB-4D27-8DF8-5B36A844C4C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EC301858-3B6A-4155-BAB8-A84053BCAE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC301858-3B6A-4155-BAB8-A84053BCAE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC301858-3B6A-4155-BAB8-A84053BCAE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF1763B-A0AB-4D27-8DF8-5B36A844C4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF1763B-A0AB-4D27-8DF8-5B36A844C4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF1763B-A0AB-4D27-8DF8-5B36A844C4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF1763B-A0AB-4D27-8DF8-5B36A844C4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
